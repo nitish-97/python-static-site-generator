@@ -1,8 +1,5 @@
 import typer
-import Site from ssg.site
-
-# def if __name__ == "__main__":
-#     pass
+from ssg.site import Site
 
 def main(source="content", dest="dist"):
     config = {
